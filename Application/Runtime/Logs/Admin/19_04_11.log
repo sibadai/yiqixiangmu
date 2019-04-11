@@ -1,0 +1,16 @@
+[ 2019-04-11T14:11:31+08:00 ] 127.0.0.1 /index.php?m=admin&c=cate&a=del&cid=4
+ERR: Think\Model:del方法不存在！
+
+[ 2019-04-11T15:55:16+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=index
+ERR: 非法操作:index
+
+[ 2019-04-11T15:55:37+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=index
+ERR: 非法操作:index
+
+[ 2019-04-11T15:55:39+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=index
+ERR: 非法操作:index
+
+[ 2019-04-11T20:13:10+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=dologin
+ERR: 1241:Operand should contain 1 column(s)
+ [ SQL语句 ] : SELECT * FROM `bbs_user` WHERE ( uname='小基',auth<3 ) LIMIT 1  
+
