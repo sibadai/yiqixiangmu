@@ -31,7 +31,6 @@ class LoginController extends Controller
     $brr['uname'] = [EQ,"$uname"];
     $brr['auth']  = [LT,3];
     //查找结果为管理员或者超级管理员，若非其一，登录失败
-    
    	$user = M('bbs_user')->where($brr)->find();
     
 
